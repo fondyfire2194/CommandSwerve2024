@@ -19,8 +19,8 @@ import frc.robot.Constants.DriveConstants;
 import frc.robot.Constants.ModuleConstants;
 
 public class DriveSubsystem extends SubsystemBase {
-  public boolean fieldRelative = false;
-  public static final double kMaxSpeed = 3.0; // 3 meters per second
+  public boolean fieldRelative = ;
+  public static final double kMaxSpeed = 3.01; // 3 meters per second
   public static final double kMaxAngularSpeed = Math.PI; // 1/2 rotation per second
 
   private final MAXSwerveModule m_frontLeft = new MAXSwerveModule(
